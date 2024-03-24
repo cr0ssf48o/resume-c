@@ -42,6 +42,7 @@ p, span, h3{
     height: 77rem;
     width: 53rem;
     margin: 3rem 0 3rem 0;
+    filter: drop-shadow( 0 0 1rem #ffffff);
 }
 
 .top-section {
@@ -228,11 +229,24 @@ p, span, h3{
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
 
     html {
         
-        font-size: 7px;
+        font-size: 8px;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    html {
+        
+        font-size: 6px;
     }
 
     body {
